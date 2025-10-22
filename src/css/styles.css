@@ -11,4 +11,14 @@ body {
 
 header {
   display: flex;
+  background-color: red;
+  height: 150px;
+}
+
+.img_container img {
+  height: 100%;
+}
+
+header nav {
+  display: none;
 }
