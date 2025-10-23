@@ -30,6 +30,7 @@ header nav {
   header {
     justify-content: space-between;
     align-items: center;
+    padding: 15px 30px;
   }
 
   header nav {
@@ -47,7 +48,14 @@ header nav {
   }
 
   nav ul {
+    display: flex;
+    gap: 20px;
     margin: 0;
     padding: 0;
+  }
+
+  .icons {
+    height: 40px;
+    width: 40px;
   }
 }
