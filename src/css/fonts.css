@@ -7,13 +7,13 @@
 @font-face {
   font-family: "signika negative";
   src: url("../../assets/fonts/SignikaNegative-Light.ttf") format("truetype");
-  font-weight: light;
+  font-weight: 300;
 }
 
 @font-face {
   font-family: "signika negative";
   src: url("../../assets/fonts/SignikaNegative-Medium.ttf") format("truetype");
-  font-weight: medium;
+  font-weight: 500;
 }
 
 @font-face {

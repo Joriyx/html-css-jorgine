@@ -47,5 +47,52 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vh - 150px);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 80px;
+  }
+
+  .home-desktop-1 h2,
+  .home-desktop-1 p {
+    color: var(--color-primary);
+    text-align: start;
+  }
+
+  .home-desktop-1 h2 {
+    font-size: 3em;
+    font-family: "fugaz one";
+    letter-spacing: 2px;
+    max-width: 360px;
+  }
+
+  .home-desktop-1 p {
+    font-size: 1em;
+    font-weight: 300;
+    max-width: 340px;
+    flex-grow: 1;
+  }
+
+  .home-desktop-1 a {
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
+    padding: 20px 60px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 1.5em;
+    align-self: flex-end;
+  }
+
+  .home-desktop-2 {
+  }
+
+  .home-desktop-2 h2 {
+    color: var(--color-primary);
+    font-weight: 600;
+    padding: 60px;
+    font-size: 2.5em;
   }
 }
