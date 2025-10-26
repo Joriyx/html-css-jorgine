@@ -52,6 +52,9 @@ header nav {
   height: 70px;
   padding: 15px;
   justify-content: center;
+  position: sticky;
+  bottom: 0;
+  box-shadow: 0 -5px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .footer-mobile > * {
