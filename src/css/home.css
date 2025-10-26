@@ -1,0 +1,51 @@
+.home-mobile {
+  background-image: url("../../assets/images/Background_mobile.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  height: 100%;
+}
+
+.home-mobile h2 {
+  font-family: "fugaz one";
+  max-width: 220px;
+  color: var(--color-primary);
+  align-self: center;
+}
+
+.home-mobile a {
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+  padding: 15px 50px;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.home-desktop-1,
+.home-desktop-2 {
+  display: none;
+}
+
+@media screen and (min-width: 750px) {
+  .home-mobile {
+    display: none;
+  }
+
+  .home-desktop-1,
+  .home-desktop-2 {
+    display: block;
+  }
+
+  .home-desktop-1 {
+    background-image: url("../../assets/images/Background_desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 150px);
+  }
+}

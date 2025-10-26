@@ -6,24 +6,15 @@
 /* Feel free to add as many of these imports as you need */
 @import url("./fonts.css");
 
+@import url("./home.css");
+
+@import url("./coming_soon.css");
+
 body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   background-color: var(--color-secondary);
   font-family: "signika negative";
-}
-
-.coming_soon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: var(--color-primary);
-  font-size: 50px;
-}
-
-.coming_soon h1 {
-  margin: 0;
 }
 
 a {
