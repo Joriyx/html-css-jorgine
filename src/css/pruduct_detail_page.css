@@ -1,0 +1,5 @@
+main span {
+  border-color: var(--color-tertiary);
+  border-style: double;
+  border-radius: 10px;
+}
