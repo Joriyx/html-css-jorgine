@@ -12,8 +12,6 @@
 
 @import url("./pruduct_card.css");
 
-@import url("./pruduct_detail_page.css");
-
 body {
   display: grid;
   grid-template-rows: auto 1fr auto;
