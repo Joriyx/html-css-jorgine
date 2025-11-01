@@ -42,7 +42,7 @@
   margin-top: 0;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 800px) {
   .home-mobile {
     display: none;
   }

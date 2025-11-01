@@ -61,7 +61,7 @@ main a {
 }
 
 .size {
-  font-style: bold;
+  font-weight: bold;
 }
 
 .product_detail {
@@ -72,7 +72,7 @@ main a {
 }
 
 .price {
-  font-style: bold;
+  font-weight: bold;
   font-size: 1.5em;
 }
 
@@ -86,7 +86,7 @@ main a {
   text-align: center;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 800px) {
   main a {
     align-self: self-start;
   }

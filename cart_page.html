@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rainydays|Cart</title>
     <link rel="stylesheet" href="src/css/styles.css" />
+    <link rel="stylesheet" href="src/css/cart_page.css" />
   </head>
   <body>
     <header>
@@ -39,41 +40,44 @@
       </nav>
     </header>
     <main>
-      <h1>Shopping cart</h1>
-      <section>
-        <div>
+      <section class="image_and_sqp_line">
+        <h1>Shopping cart</h1>
+        <div class="shoping_cart_image">
           <img
             src="assets/product-images/RainyDays_Jacket4.png"
             alt="A Product image of the Stormheim jacket"
-            class="small"
           />
         </div>
         <h2>Stormheim</h2>
-        <p>S</p>
-        <div>
-          <a href="coming_soon.html"
-            ><img src="assets/icons/Trash.svg" class="icons"
-          /></a>
-          <p>1</p>
-          <a href="coming_soon.html"
-            ><img src="assets/icons/Plus.svg" class="icons"
-          /></a>
-        </div>
-        <p>$99</p>
-      </section>
-      <section>
-        <div>
-          <p>Stormheim</p>
-          <p>Shipping</p>
-          <p>Taxes</p>
-          <p>Total</p>
-        </div>
-        <div>
+        <div class="size_quantity_price_line">
+          <p>S</p>
+          <div class="quantity">
+            <a href="coming_soon.html"
+              ><img src="assets/icons/Trash.svg" class="icons"
+            /></a>
+            <p>1</p>
+            <a href="coming_soon.html"
+              ><img src="assets/icons/Plus.svg" class="icons"
+            /></a>
+          </div>
           <p>$99</p>
-          <p>$0</p>
-          <p>$10</p>
-          <p>$109</p>
         </div>
+      </section>
+      <section class="price_box">
+        <artical class="price_box_names_and_prices">
+          <div class="price_box_names">
+            <p>Stormheim</p>
+            <p>Shipping</p>
+            <p>Taxes</p>
+            <p class="price_box_total">Total</p>
+          </div>
+          <div class="price_box_prices">
+            <p>$99</p>
+            <p>$0</p>
+            <p>$10</p>
+            <p class="price_box_total">$109</p>
+          </div></artical
+        >
         <a href="payment_detail_page.html">Buy now</a>
       </section>
     </main>
