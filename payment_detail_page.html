@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rainydays|Payment</title>
     <link rel="stylesheet" href="src/css/styles.css" />
+    <link rel="stylesheet" href="src/css/payment_detail_page.css"
   </head>
   <body>
     <header>
@@ -39,7 +40,30 @@
       </nav>
     </header>
     <main>
-      <h1>Coming soon</h1>
+      <form method="post">
+        <h2>Contact</h2>
+        <input type="email" id="email" placeholder="Email" />
+        <h2>Delivery</h2>
+        <input type="text" id="fname" placeholder="First Name" />
+        <input type="text" id="lname" placeholder="Last Name" />
+        <input type="text" id="adress" placeholder="Adress" />
+        <input type="text" id="city" placeholder="City" />
+        <input type="text" id="zip_code" placeholder="ZIP code" />
+        <input type="tel" id="phone_number" placeholder="Phone Number" />
+        <h2>Shipping Method</h2>
+        <label for="free">Free 6-8 Working Days $0</label>
+        <input type="checkbox" id="free" />
+        <label for="standard">Standard 4-6 Working Days $8</label>
+        <input type="checkbox" id="standard" />
+        <label for="express">Express 2-4 Working Days $18</label>
+        <input type="checkbox" id="express" name="express" />
+        <h2>Payment</h2>
+        <input type="text" id="card_number" placeholder="Card Number" />
+        <input type="text" id="exp_date" placeholder="EXP DATE (mm/yy)" />
+        <input type="text" id="security_code" placeholder="Security code" />
+        <input type="text" id="card_name" placeholder="Name" />
+        <button>Pay</button>
+      </form>
     </main>
     <footer class="footer-mobile">
       <nav>
