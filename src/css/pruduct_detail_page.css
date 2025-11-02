@@ -17,7 +17,7 @@ main p {
   max-width: 420px;
 }
 
-main a {
+.cta_add_cart {
   background-color: var(--color-primary);
   color: var(--color-secondary);
   border-radius: 40px;

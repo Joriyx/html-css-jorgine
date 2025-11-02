@@ -6,7 +6,6 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 section {
@@ -33,6 +32,10 @@ p {
   max-width: 500px;
   text-align: start;
   margin: 0 20px;
+}
+
+.breadcrumbs {
+  align-self: flex-start;
 }
 
 @media screen and (min-width: 800px) {

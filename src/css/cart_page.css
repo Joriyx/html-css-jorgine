@@ -1,4 +1,4 @@
-main {
+.shopping_cart {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -107,7 +107,7 @@ h2 {
 }
 
 @media screen and (min-width: 800px) {
-  main {
+  .shopping_cart {
     flex-direction: row;
     justify-content: space-around;
     align-items: start;
