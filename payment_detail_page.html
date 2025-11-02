@@ -93,15 +93,45 @@
       </section>
       <form method="post">
         <h2 class="contact">Contact</h2>
-        <input type="email" id="email" placeholder="Email" />
+        <input type="email" id="email" placeholder="Email" aria-label="Email" />
         <h2 class="delivery">Delivery</h2>
-        <input type="text" id="fname" placeholder="First Name" />
-        <input type="text" id="lname" placeholder="Last Name" />
-        <input type="text" id="adress" placeholder="Adress" />
-        <input type="text" id="city" placeholder="City" />
-        <input type="text" id="zip_code" placeholder="ZIP code" />
-        <input type="tel" id="contry_phone_code" placeholder="+47" />
-        <input type="tel" id="phone_number" placeholder="Phone Number" />
+        <input
+          type="text"
+          id="fname"
+          placeholder="First Name"
+          aria-label="First Name"
+        />
+        <input
+          type="text"
+          id="lname"
+          placeholder="Last Name"
+          aria-label="Last Name"
+        />
+        <input
+          type="text"
+          id="adress"
+          placeholder="Adress"
+          aria-label=" Adress"
+        />
+        <input type="text" id="city" placeholder="City" aria-label="City " />
+        <input
+          type="text"
+          id="zip_code"
+          placeholder="ZIP code"
+          aria-label="ZIP code"
+        />
+        <input
+          type="tel"
+          id="country_phone_code"
+          placeholder="+47"
+          aria-label="Country code"
+        />
+        <input
+          type="tel"
+          id="phone_number"
+          placeholder="Phone Number"
+          aria-label="Phone Number"
+        />
         <h2 class="shipping">Shipping Method</h2>
         <div class="shipping_free shipping_options">
           <input type="radio" id="free" name="shipping" />
@@ -120,10 +150,30 @@
         </div>
 
         <h2 class="payment">Payment</h2>
-        <input type="text" id="card_number" placeholder="Card Number" />
-        <input type="text" id="exp_date" placeholder="EXP DATE (mm/yy)" />
-        <input type="text" id="security_code" placeholder="Security code" />
-        <input type="text" id="card_name" placeholder="Name" />
+        <input
+          type="text"
+          id="card_number"
+          placeholder="Card Number"
+          aria-label="Card Number"
+        />
+        <input
+          type="text"
+          id="exp_date"
+          placeholder="EXP DATE (mm/yy)"
+          aria-label="EXP DATE (mm/yy)"
+        />
+        <input
+          type="text"
+          id="security_code"
+          placeholder="Security code"
+          aria-label="Security code"
+        />
+        <input
+          type="text"
+          id="card_name"
+          placeholder="Name on card"
+          aria-label="Name on card"
+        />
         <a href="confirmation_page.html" class="button">pay</a>
       </form>
     </main>

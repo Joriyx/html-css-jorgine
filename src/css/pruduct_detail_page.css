@@ -1,10 +1,22 @@
-main h2 {
+main h1 {
   color: var(--color-primary);
   font-size: 2em;
   font-style: bold;
 }
 
 main p {
+  color: var(--color-primary);
+  max-width: 420px;
+}
+
+fieldset {
+  color: var(--color-primary);
+  max-width: 420px;
+  border: none;
+  padding: 0;
+}
+
+main h2 {
   color: var(--color-primary);
   max-width: 420px;
 }

@@ -11,7 +11,7 @@
   height: calc(100dvh - 220px);
 }
 
-.home-mobile h2 {
+.home-mobile h1 {
   font-family: "fugaz one";
   max-width: 220px;
   color: var(--color-primary);
@@ -66,13 +66,13 @@
     padding: 80px;
   }
 
-  .home-desktop-1 h2,
+  .home-desktop-1 h1,
   .home-desktop-1 p {
     color: var(--color-primary);
     text-align: start;
   }
 
-  .home-desktop-1 h2 {
+  .home-desktop-1 h1 {
     font-size: 3em;
     font-family: "fugaz one";
     letter-spacing: 2px;
