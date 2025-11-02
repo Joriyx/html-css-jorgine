@@ -72,23 +72,34 @@
         >
       </section>
       <form method="post">
-        <h2>Contact</h2>
+        <h2 class="contact">Contact</h2>
         <input type="email" id="email" placeholder="Email" />
-        <h2>Delivery</h2>
+        <h2 class="delivery">Delivery</h2>
         <input type="text" id="fname" placeholder="First Name" />
         <input type="text" id="lname" placeholder="Last Name" />
         <input type="text" id="adress" placeholder="Adress" />
         <input type="text" id="city" placeholder="City" />
         <input type="text" id="zip_code" placeholder="ZIP code" />
+        <input type="tel" id="contry_phone_code" placeholder="+47" />
         <input type="tel" id="phone_number" placeholder="Phone Number" />
-        <h2>Shipping Method</h2>
-        <input type="checkbox" id="free" />
-        <label for="free">Free 6-8 Working Days $0</label>
-        <input type="checkbox" id="standard" />
-        <label for="standard">Standard 4-6 Working Days $8</label>
-        <input type="checkbox" id="express" name="express" />
-        <label for="express">Express 2-4 Working Days $18</label>
-        <h2>Payment</h2>
+        <h2 class="shipping">Shipping Method</h2>
+        <div class="shipping_free shipping_options">
+          <input type="radio" id="free" name="shipping" />
+          <label for="free">Free 6-8 Working Days </label>
+          <span>$0</span>
+        </div>
+        <div class="shipping_standard shipping_options">
+          <input type="radio" id="standard" name="shipping" />
+          <label for="standard">Standard 4-6 Working Days</label>
+          <span>$8</span>
+        </div>
+        <div class="shipping_express shipping_options">
+          <input type="radio" id="express" />
+          <label for="express">Express 2-4 Working Days </label>
+          <span>$18</span>
+        </div>
+
+        <h2 class="payment">Payment</h2>
         <input type="text" id="card_number" placeholder="Card Number" />
         <input type="text" id="exp_date" placeholder="EXP DATE (mm/yy)" />
         <input type="text" id="security_code" placeholder="Security code" />
