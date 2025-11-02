@@ -182,7 +182,16 @@ main {
 .shipping_options input {
   width: 18px;
   height: 18px;
-  accent-color: rgba(217, 217, 217, 0.3);
+  accent-color: var(--color-tertiary);
+  appearance: none;
+  background-color: rgba(217, 217, 217, 0.3);
+  border: 2px solid var(--color-tertiary);
+  border-radius: 50%;
+}
+
+.shipping_options input:checked {
+  background-color: var(--color-tertiary);
+  border-color: rgba(217, 217, 217, 0.3);
 }
 
 .shipping_options label {
@@ -191,10 +200,6 @@ main {
 
 span {
   align-self: center;
-}
-
-#free {
-  border: 2px solid var(--color-tertiary);
 }
 
 @media screen and (min-width: 800px) {
