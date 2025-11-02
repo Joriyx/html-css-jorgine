@@ -8,11 +8,52 @@ form h2 {
 }
 
 button {
-  color: var(--color-tertiary);
-  background-color: #9aa680;
-}
-
-button {
   color: var(--color-primary);
   background-color: var(--color-secondary);
+}
+
+.shopping_cart_box {
+  background-color: var(--color-primary);
+  border-radius: 25px;
+  padding: 20px 0;
+}
+
+.shopping_cart_box_product_image img {
+  width: 100px;
+  height: 100px;
+}
+
+.shopping_cart_box_summary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+.shopping_cart_box_icon_name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 10px;
+}
+
+.shopping_cart_box_icon_name .icons {
+  height: 25px;
+  width: 25px;
+}
+
+.shopping_cart_box_icon_name h2 {
+  font-weight: 600;
+}
+
+.shopping_cart_box_content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.shopping_cart_box_total {
+  font-weight: 600;
+  font-size: 1.2em;
 }
