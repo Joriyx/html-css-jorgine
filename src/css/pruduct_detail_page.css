@@ -1,11 +1,3 @@
-main span {
-  border: 2px solid var(--color-primary);
-  border-radius: 10px;
-  display: inline-block;
-  min-width: 40px;
-  text-align: center;
-}
-
 main h2 {
   color: var(--color-primary);
   font-size: 2em;
@@ -76,7 +68,19 @@ main p {
   font-size: 1.5em;
 }
 
-.marked {
+.size_selector span {
+  border: 2px solid var(--color-primary);
+  border-radius: 10px;
+  display: inline-block;
+  min-width: 40px;
+  text-align: center;
+}
+
+.size_selector input {
+  display: none;
+}
+
+.size_selector input:checked + span {
   color: var(--color-secondary);
   background-color: var(--color-primary);
 }
