@@ -64,7 +64,6 @@ main {
   justify-content: center;
   align-items: center;
   gap: 40px 0;
-  padding: 40px;
 }
 
 @media screen and (min-width: 800px) {
@@ -75,6 +74,7 @@ main {
     align-items: start;
     align-content: center;
     gap: 60px;
+    padding: 40px;
   }
 
   h1 {
