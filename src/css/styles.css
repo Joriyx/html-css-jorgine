@@ -91,6 +91,14 @@ header nav {
   padding: 0 7px 0 5px;
 }
 
+.button {
+  transition: scale 50ms ease;
+}
+
+.button:active {
+  scale: 0.95;
+}
+
 @media screen and (min-width: 800px) {
   header {
     justify-content: space-between;
@@ -144,10 +152,15 @@ header nav {
   }
 
   .footer-desktop h3 {
+    color: var(--color-tertiary);
     margin: 0;
   }
 
   .footer-desktop img {
     height: 100px;
+  }
+
+  .footer-desktop p {
+    color: var(--color-tertiary);
   }
 }

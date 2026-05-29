@@ -65,7 +65,7 @@ h2 {
 .quantity {
   display: flex;
   flex-direction: row;
-  background-color: #ffffff;
+  background-color: var(--color-primary);
   border-radius: 30px;
   max-width: 100px;
   justify-content: center;
